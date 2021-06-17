@@ -15,11 +15,11 @@ Pythonのリストの表現に近い形でファイルに書き出します。
 
 ## file_to_list(file_name)
 
-ファイル名file_nameの内容を読み込み、リストにして返します。
+ファイルfile_nameから内容を読み込み、リストにして返します。
 
 ## list_to_file(lst, file_name)
 
-ファイル名file_nameのファイルを作り、リストlstを書き出します。
+リストlstを、ファイルfile_nameに書き出します。
 すでにファイルが存在する場合には、上書きします。
 
 
