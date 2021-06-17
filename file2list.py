@@ -10,7 +10,8 @@ def file_to_list(file_name):
     lst = []
     with open(file_name,'r') as f:
         for line in f:
-            lst.append(ast.literal_eval(line.rstrip('\n')))
+            if (line[0] != '#'):
+                lst.append(ast.literal_eval(line.rstrip('\n')))
     return lst
 
 if __name__ == '__main__':
