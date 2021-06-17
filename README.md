@@ -18,11 +18,16 @@ Pythonのリストの表現に近い形でリストをファイルに書き出�
 使い方の例として、sample.pyをご覧ください。
 
 ## 実行例
+
 ```
 % python sample.py
 lis1=[1000, 3.1415, [9.99, 12], [10.21, 18], ['abc', 'DeF', 5], 'BIG', 'small']
 lis2=[1000, 3.1415, [9.99, 12], [10.21, 18], ['abc', 'DeF', 5], 'BIG', 'small']
 ```
+
+test_read.txtから読んだものがlis1です。
+lis1をtest_write.txtに書いて再度読み込んだものがlis2です。
+lis1とlis2が一致している様子を表しています。
 
 ## file_to_list(file_name)
 
