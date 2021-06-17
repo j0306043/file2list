@@ -15,7 +15,7 @@ Pythonのリストの表現に近い形でリストをファイルに書き出�
 
 # 使い方
 
-使い方の例として、sample.pyをご覧ください。
+使い方の例として、[sample.py](https://github.com/j0306043/file2list/blob/main/sample.py)をご覧ください。
 
 ## file_to_list(file_name)
 
