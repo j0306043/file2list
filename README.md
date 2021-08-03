@@ -8,7 +8,7 @@ Pythonのリストの表現に近い形でリストをファイルに書き出�
 整数、浮動小数点数、文字列、さらには、入れ子のリストなどがほぼ人間に見やすい表現で書き出されます。
 
 一方、そのようなテキストファイルを読み込んでリストにすることができます。
-テキストファイルの例は、[test_read.txt](https://github.com/j0306043/file2list/blob/main/test_read.txt)をご覧ください。
+テキストファイルの例は、[sample_read.txt](https://github.com/j0306043/file2list/blob/main/sample_read.txt)をご覧ください。
 整数、浮動小数点数、文字列、さらには、(入れ子の)リストなどがほぼそのまま使えます。
 からくりとしては、行単位でast.literal_evalを使って変換しているだけです。
 したがって、ast.literal_evalが読める形式なら読み込んでリストにすることができます。
@@ -35,6 +35,6 @@ lis1=[1000, 3.1415, [9.99, 12], [10.21, 18], ['abc', 'DeF', 5], 'BIG', 'small']
 lis2=[1000, 3.1415, [9.99, 12], [10.21, 18], ['abc', 'DeF', 5], 'BIG', 'small']
 ```
 
-test_read.txtから読んだものがlis1です。
-lis1をtest_write.txtに書いて再度読み込んだものがlis2です。
+sample_read.txtから読んだものがlis1です。
+lis1をsample_write.txtに書いて再度読み込んだものがlis2です。
 lis1とlis2が一致している様子を表しています。
