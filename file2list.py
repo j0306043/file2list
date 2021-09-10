@@ -7,12 +7,8 @@ def list_to_file(lst,file_name):
     return
 
 def file_to_list(file_name):
-    lst = []
     with open(file_name,'r') as f:
-        for line in f:
-            if (line[0] != '#'):
-                lst.append(ast.literal_eval(line.rstrip('\n')))
-    return lst
+        return [ast.literal_eval(line.rstrip('\n')) for line in f if line[0] != '#']
 
 if __name__ == '__main__':
     print('This is file2list.py.')
