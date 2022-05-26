@@ -1,4 +1,4 @@
-import ast;
+import ast
 
 def list_to_file(lst,file_name):
     with open(file_name,'w') as f:
